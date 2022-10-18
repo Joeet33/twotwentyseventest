@@ -15,18 +15,67 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="grid-container fluid h-screen">
-      <div class="grid-x">nav</div>
-      <div class="grid-x">start wars</div>
-      <div class="grid-x">covid19</div>
-      <div class="grid-x">reel</div>
-      <div class="grid-x">image and trailer</div>
-      <div class="grid-x">more images</div>
-      <div class="grid-x">contact form</div>
+      <div class="top-bar" id="example-menu">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li><a href="#">logo</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Win</a></li>
+            <li><a href="#">Holidays</a></li>
+            <li><a href="#">Disneylife</a></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            <li>
+              <button type="button" class="button">login/register</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cell">start wars</div>
+      <div class="cell">covid19</div>
+      <div class="grid-y">
+        <div class="grid-x">
+          <div class="cell small-6">new release this month</div>
+          <button class="cell small-6">see all</button>
+        </div>
+        <div class="cell">carousel</div>
+      </div>
+      <div class="grid-x">
+        <div class="cell small-6">image</div>
+        <div class="cell small-6">trailer</div>
+      </div>
+      <div class="grid-x">
+        <div class="cell small-3">image 1</div>
+        <div class="cell small-3">image 2</div>
+        <div class="cell small-3">image 3</div>
+        <div class="cell small-3">image 4</div>
+      </div>
+      <div class="grid-y">
+        <div class="cell">Contact Us</div>
+        <div class="grid-x">
+          <div class="cell small-6">name</div>
+          <div class="cell small-6">surname</div>
+        </div>
+        <div class="grid-x">
+          <div class="cell small-6">contact number</div>
+          <div class="cell small-6">email adress</div>
+        </div>
+        <div class="cell">leave message</div>
+        <button class="cell">submit</button>
+      </div>
       <div class="grid-y">
         <div class="cell">footer black</div>
         <div class="cell">footer white</div>
       </div>
     </div>
+
+   
   </body>
 </html>
